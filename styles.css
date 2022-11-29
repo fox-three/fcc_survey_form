@@ -3,4 +3,66 @@
 body {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
+    background-color: #1a1a85;
+    opacity: 0.9;
+    background-image: linear-gradient(#6b0af4 2px, transparent 2px), linear-gradient(90deg, #6b0af4 2px, transparent 2px), linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(90deg, #444cf7 1px, #00007c 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    margin: 3rem auto 3rem auto;
+    width: 75%;
+}
+
+form {
+    background-color: #00007c;
+    padding: 2rem;
+    border-radius: 2%;
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+header {
+    text-align: center;
+    margin: 1rem auto;
+    display: block;
+    background-color: #00007c;
+    padding: 1.5rem;
+    border-radius: 2%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+button {
+    border: none;
+}
+
+.submit-button {
+    display: block;
+    width: 90%;
+
+}
+
+.form-group {
+    margin:  0 auto 1rem auto;
+    padding: 0.125rem;
+}
+
+.form-control {
+    display: block;
+    padding: 0.3rem 0.5rem;
+    height: 1.25rem;
+    width: 80%;
+    margin: 0 auto 1rem auto;
 }
