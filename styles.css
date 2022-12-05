@@ -50,13 +50,19 @@ button {
 
 .submit-button {
     display: block;
-    width: 90%;
+    width: 95%;
+    margin: auto;
+    font-size: 1.25rem;
+}
 
+.submit-button:hover {
+    color: #6b0af4;
 }
 
 .form-group {
     margin:  0 auto 1rem auto;
     padding: 0.125rem;
+    font-weight: 400;
 }
 
 .form-control {
@@ -65,4 +71,8 @@ button {
     height: 1.25rem;
     width: 80%;
     margin: 0 auto 1rem auto;
+}
+
+textarea {
+    width: 90%;
 }
